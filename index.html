@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Maker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class>
+
+    <h1>Meme Maker!</h1>
+
+<div class="darkmode-switch">
+    <label for="switch" id="dark">Dark Mode</label>
+    <input type="checkbox" id="switch" /><label for="switch" class="switch-label">Toggle</label>
+</div>
+
+    <form id="meme-form">
+        <label for="">Make Meme</label>
+        <!-- <label for="link-input">Picture</label> -->
+            <input type="text" id="link-input" class="form-input" placeholder="Image URL"><br>
+        <!-- <label for="top-text">Top Text</label> -->
+            <input type="text" id="top-text" class="form-input" placeholder="Top Text"><br>
+        <!-- <label for="bottom-text">Bottom Text</label> -->
+            <input type="text" id="bottom-text" class="form-input" placeholder="Bottom Text"><br>
+            <input type="submit" id="submit-button" value="Create">
+    </form>
+
+<div id="memes">
+</div>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
